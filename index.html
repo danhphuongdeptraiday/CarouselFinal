@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' ></script>
+
+</head>
+<body>
+    <div class="carousel">
+        <div class="images">
+            <div class="slide first">
+                <img src="slide1.jpg" alt="" class="img1">
+            </div>
+            <div class="slide">
+                <img src="slide2.jpg" alt="" class="img2"> 
+            </div>
+            <div class="slide">
+                <img src="slide3.jpg" alt="" class="img3">
+            </div>
+        </div>
+        <div onclick="arrow_slide(-1)" class="arrow left">
+            <span class="fas fa-angle-left"></span>
+        </div>
+        <div onclick="arrow_slide(1)" class="arrow right">
+            <span class="fas fa-angle-right"></span>
+        </div>
+        <div class="btn-slide">
+            <span onclick="slide_but(1)" id="radio1"></span>
+            <span onclick="slide_but(2)" id="radio2"></span>
+            <span onclick="slide_but(3)" id="radio3"></span>
+        </div>
+    </div>
+    <script src="slide.js"></script>
+</body>
+</html>
