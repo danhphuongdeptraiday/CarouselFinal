@@ -1,6 +1,6 @@
 
 // Câu 1
-let sumMatched = window.prompt("Enter positive number: ");
+
 const array = [3, 4, 7, 1, 7];
 
 //const findPairOfIndex = (array, sumMatched);
@@ -14,7 +14,7 @@ function findPairOfIndex(array, sumMatched){
         }
     }
 }
-console.log(findPairOfIndex(array, sumMatched));
+console.log(findPairOfIndex(array,11));
 
 //Câu 2 
 function checkSumOfDigitIsEven(num){
