@@ -16,15 +16,14 @@ function findPairOfIndex(array, sumMatched){
 }
 console.log(findPairOfIndex(array, sumMatched));
 
-// Câu 2 
-// let inputNumber = window.prompt("Enter a positive number: ");
-// function checkSumOfDigitIsEven(num){
-//     let count = 0;
-//     for(let i = 0; i < num; i++){
-//         if(i % 2 == 0){
-//             count++;
-//         }  
-//     }
-//     return count;
-// }
-// console.log(checkSumOfDigitIsEven(inputNumber));
+//Câu 2 
+function checkSumOfDigitIsEven(num){
+    let count = 0;
+    for(let i = 0; i < num; i++){
+        if(i % 2 == 0){
+            count++;
+        }  
+    }
+    return count;
+}
+console.log(checkSumOfDigitIsEven(30));
